@@ -4,7 +4,7 @@ const links = [
   {
     id: 1,
     text: "About",
-    path: "/about",
+    path: "/About",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const links = [
   },
 ];
 
-function MenuLinks() {
+export function MenuLinks() {
   return links.map((link) => {
     return (
       <li key={link.id}>

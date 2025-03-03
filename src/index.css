@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@layer components {
+  .main-container {
+    @apply max-w-6xl px-4 mx-auto;
+  }
+}
+
+body {
+  background: linear-gradient(to bottom, #d6e6f8, #9f99a8);
+  min-height: auto;
+}
